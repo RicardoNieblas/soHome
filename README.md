@@ -17,41 +17,35 @@
 
 ### **Problem statement**
 
-In this day and age, an increasing amount of companies try to present their own solution for automated house management as the ideal solution. Systems such as Phillips Hue (house lighting) offer a wide amount of compatibility with other systems, but are often expensive and require a lot of additional hardware to work. Other systems, such as Google Home, offer a more complete solution, but are often limited to the products of a single company, and are often not compatible with other systems.
+Automated house management systems are becoming increasingly popular, with many companies offering their own solutions. However, these systems can be expensive, require a lot of additional hardware, and are often limited to the products of a single company.
 
-While it's easy to get lost in a sea of products designed for home management that apparently work with each other, it's often hard to get exactly what you're expecting from every single product, let alone have them working seamlessly with each other. Now, if you happen to be a user than can accomodate to the pros and cons of a certain ecosystem, there is always a concern regarding the security of your data, as well as the possibility of it being sold to third parties.
+In this project, we propose an alternative to these systems, with the main goal in mind to make it as easy to use as possible, as well as providing security for our users. Our system will consist of a local machine, which means that there will be no need for an internet connection. Additionally, our system will be open source, which means that users will be able to modify it to their liking, as well as being able to add new features to it.
 
-We want to propose an alternative to all automated house management systems, with the main goal in mind to make it as easy to use as possible, as well as providing security for our users. Since our project will consist of a local machine (for the sake of our class, a microcontroller), there will be no need for an internet connection, and therefore, no need to worry about our data being sold to third parties. Additionally, since our system will be open source, users will be able to modify it to their liking, as well as being able to add new features to it.
-
-We have plans for the future to keep adding new features to our system, to solidify our project as a product everybody can use, and to provide all documentation necessary to get the system up an running.
+We have plans for the future to keep adding new features to our system, to solidify our project as a product that everybody can use, and to provide all documentation necessary to get the system up and running.
 
 ### **Hardware requirements**
 
 We will provide purchase links to all these components if you intend to follow along with our project. Please do keep in mind this was developed in Mexico, so these links will be for Mexican stores. If you are from another country, you will have to look for these components in your local stores.
 
-| Component | Quantity | Characteristics | Component |
-| :- | :- | :- | :- |
-| [STM32 F767ZI](https://www.st.com/en/evaluation-tools/nucleo-f767zi.html) | 1 | <li> Powerful STM microcontroller <li> Versatile development board for embedded projects <li> Supports various input/output options <li> Integrated debugging and programming tools | (pending image) |
-| [Dip switch (8-positions)](https://www.steren.com.mx/switch-deslizable-dip-switch-de-8-posiciones.html) | 1 | <li> Eight-position switch for binary configuration <li> Durable and reliable design <li> Ideal for setting hardware parameters <li> Suitable for PCB mounting | (pending image) |
-| [Shift register (SN74HC595N)](https://www.steren.com.mx/circuito-integrado-shift-register.html) | 2 | <li> Serial-in, parallel-out shift register <li> 8-bit data storage and output <li> Cascadable for extended output capabilities <li> Commonly used for driving multiple LEDs or digital devices | (pending image) |
+| Component                                                                        | Quantity | Characteristics | Component |
+|:---------------------------------------------------------------------------------| :- | :- | :- |
+| [STM32 F767ZI](https://www.st.com/en/evaluation-tools/nucleo-f767zi.html)        | 1 | <li> Powerful STM microcontroller <li> Versatile development board for embedded projects <li> Supports various input/output options <li> Integrated debugging and programming tools | (pending image) |
 | [Movement sensor (PIR)](https://www.steren.com.mx/sensor-de-movimiento-pir.html) | 2 | <li> 4m detection distance <li> Simple or continuous pulse <li> Adjustable delay  | (pending image) |
+| [Buzzer]()       | 2 |  | (pending image) |
 
 ### **Hardware schematic**
 
-<!-- pending -->
+
 
 ### **Hardware layout**
 
-<!-- pending -->
+
 
 ### **STM32 CubeMX parameters**
 
-<!-- pending -->
+
 
 ### **Software components**
-
-<!-- pending -->
-
 
 <!-- template example
 
